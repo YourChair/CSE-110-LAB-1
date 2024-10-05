@@ -56,13 +56,20 @@ li {
 
   /**/
 
+img {
+  max-width: 100%;
+}
+
+
+
+
+
 
 #navbar {
   position: sticky;
   top: 0;		   
   
   background-color: white;
-
 }
 
 /* Navbar links */
@@ -76,3 +83,40 @@ li {
   //text-decoration: none;
 }
 
+
+
+
+
+
+
+@media screen and not (min-width: 80rem) {
+  ul {
+    display: none;
+  }
+
+#Logo {
+  max-width: 75%;
+
+}
+
+h2 {
+  font-size: 24px;
+}
+
+#Div1 {
+  font-size: 20px;
+}
+
+#Div2 {
+  font-size: 20px;
+}
+
+#Div3 {
+  font-size: 20px;
+}
+
+.grid-container {
+    grid-template-columns: repeat(2, 2fr);
+}
+
+}
